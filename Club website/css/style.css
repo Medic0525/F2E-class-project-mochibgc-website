@@ -1,0 +1,46 @@
+html{
+    font-size: 16px;
+    max-width: 1280px;
+    margin: 32px 96px;
+    background-color: #f0e4a2;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+a, a:active, a:visited{
+    text-decoration: none;
+    color:black
+}
+
+p{
+
+}
+
+header{
+    min-width: 1280px;
+    min-height: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    min-width: 512px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+}
+
+.trailer{
+    min-width: 1280px;
+    min-height: 512px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
