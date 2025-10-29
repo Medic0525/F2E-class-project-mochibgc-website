@@ -6,11 +6,13 @@ html{
 }
 
 h1{
-
+    font-size: 3rem;
 }
 
 h2{
-
+    font-size: 1.5rem;
+    font-style: italic;
+    letter-spacing: 0.7rem;
 }
 
 a, a:active, a:visited{
@@ -27,6 +29,7 @@ header{
     min-height: 128px;
     display: flex;
     justify-content: space-between;
+      
 }
 
 nav{
@@ -47,5 +50,31 @@ nav{
     flex-direction: column;
     background-image: url("../img/club office.jpg");
     background-size: 100%;
-    filter: blur(1px);
+}
+
+main{
+    background-color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: "192px";
+}
+
+.left{
+    border-right: black 1px dotted;
+    padding-right: 128px;
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    min-width: "332px";
+}
+
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 128px;
+    border-left: black 1px dotted;
 }
