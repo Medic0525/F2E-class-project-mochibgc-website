@@ -1,8 +1,7 @@
 html{
     font-size: 16px;
     min-width: 1280px;
-    margin: 32px 96px;
-    background-color: #f0e4a2;
+
 }
 
 h1{
@@ -29,7 +28,8 @@ header{
     min-height: 128px;
     display: flex;
     justify-content: space-between;
-      
+    padding: 32px 96px;
+    background-color: #f0e4a2;
 }
 
 nav{
@@ -54,13 +54,29 @@ nav{
 
 main{
     background-color: white;
+    min-width: 1280px;
+}
+
+.news{
+    margin: 32px 96px;
+    min-width: 1088px;
+    max-height: 149px;
+    display: flex;
+    border: 2px black solid;
+}
+
+.news h2, .news p{
+    padding-left: 32px;
 }
 
 footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: "192px";
+    min-height: 192px;
+    min-width: 1280px;
+    background-color: #f0e4a2;
+    padding: 32px 96px;
 }
 
 .left{
@@ -69,7 +85,7 @@ footer{
     display:flex ;
     justify-content: center;
     flex-direction: column;
-    min-width: "332px";
+    min-width: 332px;
 }
 
 .right{
