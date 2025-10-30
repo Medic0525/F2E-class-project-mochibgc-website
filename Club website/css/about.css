@@ -4,14 +4,19 @@ html{
 
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    }
+
 h1{
     font-size: 3rem;
 }
 
 h2{
     font-size: 1.5rem;
-    font-style: italic;
-    letter-spacing: 0.7rem;
+
 }
 
 a, a:active, a:visited{
@@ -43,6 +48,44 @@ nav{
 main{
     background-color: white;
     min-width: 1280px;
+}
+
+.odd, .even{
+    max-width: 512px;
+    min-width: 300px;
+    word-wrap: break-word;
+    background-image: url("../img/cloud.png");
+
+    background-repeat: no-repeat;
+}
+
+.odd{
+    padding: 32px 96px;
+    margin: 32px 96px
+}
+
+.even{
+    position:relative;
+    margin-left: 728px;
+    padding: 32px 96px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+.intro1, .intro2{
+    background-size: 704px 270px;
+}
+
+.intro3{
+        background-size: 704px 224px;
+}
+
+.intro4, .intro6{
+        background-size: 704px 240px;
+}
+
+.intro5{
+        background-size: 704px 290px;
 }
 
 footer{
