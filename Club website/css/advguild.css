@@ -59,6 +59,10 @@ nav{
     font-size: 150%;
 }   
 
+nav a:hover{
+    background-color: lightgray;
+}
+
 main{
     background-color: white;
     

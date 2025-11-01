@@ -45,6 +45,10 @@ nav{
     font-size: 150%;
 }   
 
+nav a:hover{
+    background-color: lightgray;
+}
+
 main{
     background-color: white;
     min-width: 1280px;
@@ -65,8 +69,9 @@ main{
 }
 
 .even{
+
     position:relative;
-    margin-left: 728px;
+    left: 57%;
     padding: 32px 96px;
     margin-top: 96px;
     margin-bottom: 96px;

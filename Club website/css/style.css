@@ -37,6 +37,10 @@ nav{
     font-size: 150%;
 }
 
+nav a:hover{
+    background-color: lightgray;
+}
+
 .trailer{
     min-width: 1280px;
     min-height: 768px;
