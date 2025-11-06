@@ -75,8 +75,8 @@ main{
 }
 
 .news{
-    margin: 32px 96px;
-    min-width: 1088px;
+    margin: 32px 48px;
+    min-width: 786px;
     max-height: 307px;
     display: flex;
     border: 2px black solid;
@@ -93,7 +93,7 @@ main{
 }
 
 aside{
-    margin: 32px 96px;
+    margin: 32px 48px;
     min-width: 256px;
 }
 
