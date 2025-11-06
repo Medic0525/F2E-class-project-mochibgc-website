@@ -37,6 +37,11 @@ nav{
     font-size: 150%;
 }
 
+nav a{
+    padding: 32px 32px;
+    border-radius: 5px;
+}
+
 nav a:hover{
     background-color: lightgray;
 }
@@ -71,22 +76,50 @@ main{
     min-width: 1280px;
 }
 
+main h1{
+    text-align: center;
+}
+
+main hr{
+    max-width: 1088px;
+    color: brown;
+}
+
+.newswrap{
+    display: flex;
+    justify-content: space-between;
+}
+
 .news{
     margin: 32px 96px;
-    min-width: 1088px;
-    max-height: 149px;
+    min-width: 314px;
     display: flex;
+    flex-direction: column;
     border: 2px black solid;
 }
 
 .news h2, .news p{
     padding-left: 32px;
+    padding-right: 32px;
 }
 
 .news h2{
     font-size: 1.5rem;
     color:black;
     text-shadow: none;
+}
+
+.n1{
+    margin-right: 48px;
+}
+
+.n2{
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.n3{
+    margin-left: 48px;
 }
 
 footer{
